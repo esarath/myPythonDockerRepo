@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-python-app
-        image: akdevopscoaching/mypython-app
+        image: ebooksacr2022.azurecr.io/esarath/mypythondockerrepo #akdevopscoaching/mypython-app
         imagePullPolicy: Always
         ports:
         - containerPort: 5000

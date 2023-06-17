@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mypythondockerrepo
-        image: myacrrepo1978.azurecr.io/esarath/mypythondockerrepo:110:#{Build.BuildId}#
+        image: myacrrepo1978.azurecr.io/esarath/mypythondockerrepo:#{Build.BuildId}#
         ports:
         - containerPort: 5000
 # service type loadbalancer       
